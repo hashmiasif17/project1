@@ -1,0 +1,29 @@
+{
+    "name": "TrialVNet1",
+    "id": "/subscriptions/d0300269-3d20-4a26-89cb-80bdb6bfb794/resourceGroups/TrialResource/providers/Microsoft.Network/virtualNetworks/TrialVNet1",
+    "etag": "W/\"62cf4af4-dcaf-400c-9db9-a38cae89dca0\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "westus3",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "e304e530-8690-4364-83c9-6d517a1bdf4b",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.1.0.0/16"
+            ]
+        },
+        "subnets": [
+            {
+                "name": "default",
+                "id": "/subscriptions/d0300269-3d20-4a26-89cb-80bdb6bfb794/resourceGroups/TrialResource/providers/Microsoft.Network/virtualNetworks/TrialVNet1/subnets/default",
+                "etag": "W/\"62cf4af4-dcaf-400c-9db9-a38cae89dca0\"",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "addressPrefix": "10.1.0.0/24"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ]
+    }
+}
